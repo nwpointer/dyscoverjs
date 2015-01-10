@@ -12,7 +12,17 @@ module.exports = {
 
     name : { type: 'string' },
 
-    type : { type: 'string' }
+    type : { type: 'string' }, //enum
+
+    // has one range
+    range : {
+    	model : 'range'
+    },
+
+    // has one unit
+    unit : {
+    	model : 'unit'
+    }
   }
 };
 

@@ -6,13 +6,15 @@
 */
 
 module.exports = {
-  schema:true,
 
   attributes: {
 
     title : { type: 'string', required: true },
 
     description : { type: 'string', required: true }
+
+    // has many skils
+    // has many locations
   }
 };
 

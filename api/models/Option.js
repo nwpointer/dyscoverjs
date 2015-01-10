@@ -10,7 +10,9 @@ module.exports = {
 
   attributes: {
 
-    values : { type: 'string' }
+    values : { type: 'string' } //enum
+
+    // has a range: number of slections
   }
 };
 

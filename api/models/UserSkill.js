@@ -11,6 +11,7 @@ module.exports = {
   attributes: {
 
     values : { type: 'array' }
+    
   }
 };
 

@@ -13,6 +13,10 @@ module.exports = {
     min : { type: 'integer' },
 
     max : { type: 'integer' }
+
+    // belongs to skill 
+    // belongs to option
+    
   }
 };
 

@@ -13,6 +13,8 @@ module.exports = {
     published : { type: 'date' },
 
     expires : { type: 'date' }
+
+    // has one user: creator
   }
 };
 
