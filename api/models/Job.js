@@ -11,10 +11,16 @@ module.exports = {
 
     title : { type: 'string', required: true },
 
-    description : { type: 'string', required: true }
+    description : { type: 'string', required: true },
 
     // has many skils
+    skills: {
+    	collection: 'skill'
+    },
     // has many locations
+    locations: {
+    	collection: 'location'
+    }
   }
 };
 
